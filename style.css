@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Mulish&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Mulish&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.Main-card{
+    display: flex;
+    width: 80%;
+    margin: 50px;
+    
+    
+}
+ .card1{
+  background-color: hsl(31,77%,52%);
+  padding: 50px;
+}
+h1{
+    color: hsl(0,0%,95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color: hsl(0,0%,100%,0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px; 
+    line-height: 30px;  
+}
+.card2{
+    background-color: hsl(184,100%, 22%);
+    padding: 50px;
+}
+.card3{
+    background-color: hsl(179,100%,13%);
+    padding: 50px;
+}
+button{
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.one{
+    color: hsl(31,77%,52%);;
+}
+.two{
+    color:hsl(184,100%, 22%) ;
+}
+.three{
+    color: hsl(179,100%,13%);
+}
+
+@media screen and (max-width:480px) {
+   .Main-card{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    
+   } 
+     
+}
